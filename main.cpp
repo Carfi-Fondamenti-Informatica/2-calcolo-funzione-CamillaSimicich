@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-   float a, b, x, y, z,;
+   float a, b, x, y, z;
    cout << "inserisci quattro valori reali: a, b, x, y" << endl;
    cin >> a >> b >> x >> y ;
    
@@ -13,7 +13,7 @@ int main() {
       z=((a*x*x)-(b*y));
    }
    else{
-      z= ((a*x) + (b*y*y));
+      z= ((a*x) + (b*(y*y)));
    }
      
    return 0;
